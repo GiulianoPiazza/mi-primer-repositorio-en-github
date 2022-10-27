@@ -2,7 +2,7 @@
 /* Hacer los algoritmos que calculen el promedio de una serie de notas hasta que se ingrese una nota 
 negativa, utilizar las tres estructuras repetitivas. ¿Cuál no se puede utilizar? */
 
-echo "--------CALCULADOR DE PROMEDIOS--------" . PHP_EOL;
+echo "--------CALCULADOR DE PROMEDIOS--------". PHP_EOL;
 echo " Para finalizarlo, ingresa un numero negativo." . PHP_EOL;
 
 
