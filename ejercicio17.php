@@ -5,4 +5,6 @@ algoritmo que le permita registrar el tiempo empleado en cada recorrido, al fina
 algoritmo debería mostrar el promedio de los tiempos empleados. También necesita saber cuántas 
 veces su tiempo fue menor a valor dado y cuál fue su mejor tiempo realizado. */
 
+titi me pregunto
 si tengo muchas novias
+
