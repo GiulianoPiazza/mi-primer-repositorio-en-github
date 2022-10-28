@@ -1,0 +1,53 @@
+git init (es para generar un repositorio en el directorio, queda vacio)
+
+un repositorio es un almacen de archivos, como una estanteria
+en la que se guardan en paquetes llamados commits
+los commits son el historial de cambios, tienen una fecha de creacion y un nombre de autor
+
+para agregar la identidad:
+git congif user.name "mi-usuario"
+
+para ver el nombre de usuario
+git config user.name
+
+para agregar el mail
+gir config user.email "correo electronico"
+
+si lo usas en la compu y no lo queres poner cada vez
+git config --global
+
+para ver los archivos que hay en la carpeta donde estas posicionado:
+ls
+
+para ver los archivos ocultos:
+ls -a
+
+AGREGAR ARCHIVOS AL REPOSITORIO
+git add "nombre-archivo"
+git add . //agregas todos los archivos
+
+Ver el estado de los archivos y ver en que condiciones estan respecto al repositorio
+git status
+
+cuando modificamos un archivo hay que volver a agregarlo en el repositorio
+
+PARA CREAR UN COMMIT (commit significa confirmar los archivos agregados al repositorio)
+git commit -m "mensaje que describe los cambios en el commit"
+
+para ver el historial de commits
+git log
+
+git rm sacar de seguimiento
+
+sincronizar el repositorio con uno en github
+git remote add origin https://gith...
+
+bajar archivos del repositorio de github
+git clone https------
+
+
+enviar los cambios al repositorio de github
+git push origin main
+
+actualizar los archivos del github que fueron modificados
+git pull origin main
